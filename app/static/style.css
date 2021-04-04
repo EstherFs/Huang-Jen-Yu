@@ -1,0 +1,93 @@
+body {
+    background-color: #dfdfff;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #262626;
+}
+
+.content {
+    margin-top: 10em;
+}
+
+.analyze {
+    margin-top: 5em;
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+    top: -10;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.contain_title {
+    font-size: 24px;
+    color : #7052CB;
+    margin-top: 1em;
+}
+
+.contain {
+    font-size: 16px;
+    border-bottom: solid 2px;
+    width: 65%;
+    margin:0 auto; 
+    margin-top: 1em;
+    
+}
+
+
+
+
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #7052CB;
+    font-size: 13px;
+    color: #7052CB;
+    cursor: pointer;
+    position: relative;
+    top :-10;
+    left :0;
+    
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
